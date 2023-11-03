@@ -5,7 +5,7 @@ EXPORTER_IMG_NAME ?= exporter
 EXPORTER_IMG_TAG ?= 0.1.0
 
 OUTPUT_TYPE ?= type=docker
-BUILDPLATFORM ?= linux/amd64
+BUILDPLATFORM ?= linux/amd64,linux/arm64
 BUILDX_BUILDER_NAME ?= img-builder
 QEMU_VERSION ?= 5.2.0-2
 
